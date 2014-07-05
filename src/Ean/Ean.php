@@ -30,7 +30,7 @@ class Ean
 		}
 	}
 	
-
+	
 	/**
 	 * 
 	 * @param type $ean
