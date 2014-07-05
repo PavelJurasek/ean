@@ -2,7 +2,7 @@
 
 namespace Ean\Exception;
 
-class BadEanCode extends \Exception
+class BadEanCode extends \Ean\Exception
 {
 	protected $message = 'Bad Ean Code!';
 }
