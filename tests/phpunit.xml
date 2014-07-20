@@ -10,4 +10,21 @@
 	stopOnIncomplete="false"
 	stopOnSkipped="false"
 	verbose="false">
+
+	<testsuite name="EAN">
+		<directory suffix="Test.php">./</directory>
+	</testsuite>
+
+	<logging>
+		<log type="coverage-text" target="php://stdout"/>
+	</logging>
+
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">../src</directory>
+			<exclude>
+			</exclude>
+		</whitelist>
+	</filter>
+
 </phpunit>
