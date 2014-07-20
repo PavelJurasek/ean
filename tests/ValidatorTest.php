@@ -1,9 +1,11 @@
 <?php
 
-class ValidatorTest extends PHPUnit_Framework_TestCase
+namespace Ean\Test;
+
+class ValidatorTest extends \PHPUnit_Framework_TestCase
 {
 	protected $validator;
-	
+
 	public function setup() {
 		$this->validator = new \Ean\Validator();
 	}

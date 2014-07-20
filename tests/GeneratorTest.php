@@ -1,9 +1,11 @@
 <?php
 
-class GeneratorTest extends PHPUnit_Framework_TestCase
+namespace Ean\Test;
+
+class GeneratorTest extends \PHPUnit_Framework_TestCase
 {
 	protected $generator;
-	
+
 	public function setup() {
 		$this->generator = new \Ean\Generator();
 	}

@@ -1,9 +1,28 @@
 {
+	"name": "mzieba/ean",
+	"description": "An EAN codes manage classes",
+	"homepage": "https://github.com/mzieba/ean",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Zięba",
+			"email": "kontakt@michalzieba.pl",
+			"role": "lead"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/mzieba/ean/issues"
+	},
 	"require": {
 		"phploc/phploc": "*",
 		"phpmd/phpmd": "*",
 		"squizlabs/php_codesniffer": "*",
 		"sebastian/phpcpd": "*",
 		"sebastian/phpdcd": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Ean\\": "src/"
+		}
 	}
 }
